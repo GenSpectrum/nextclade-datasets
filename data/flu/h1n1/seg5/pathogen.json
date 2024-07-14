@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "name": "Influenza A/H1N1 (segment 5/NP)",
+    "reference name": "Influenza A virus (A/California/07/2009(H1N1)) segment 5 nucleocapsid protein (NP) gene, complete cds",
+    "reference accession": "NC_026436.1"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "readme": "README.md",
+  }
+}
