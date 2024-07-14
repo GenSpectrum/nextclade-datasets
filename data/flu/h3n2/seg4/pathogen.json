@@ -1,0 +1,12 @@
+{
+  "attributes": {
+    "name": "Influenza A/H3N2 (segment 4/HA)",
+    "reference name": "Influenza A virus (A/New York/392/2004(H3N2)) segment 4, complete sequence",
+    "reference accession": "NC_007366.1"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "readme": "README.md",
+  }
+}
