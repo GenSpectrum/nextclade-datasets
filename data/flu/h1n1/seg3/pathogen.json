@@ -8,6 +8,6 @@
   "files": {
     "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
-    "readme": "README.md",
+    "readme": "README.md"
   }
 }
