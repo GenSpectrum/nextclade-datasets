@@ -25,7 +25,7 @@
         },
         "datasets": [
             {
-                "path": "data/flu/h5n1/seg2",
+                "path": "flu/h5n1/seg2",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 2/PB1)",
@@ -48,7 +48,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg7",
+                "path": "flu/h5n1/seg7",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 7/M)",
@@ -71,7 +71,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg8",
+                "path": "flu/h5n1/seg8",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 8/NS)",
@@ -94,7 +94,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg1",
+                "path": "flu/h5n1/seg1",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 1/PB2)",
@@ -117,7 +117,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg5",
+                "path": "flu/h5n1/seg5",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 5/NP)",
@@ -140,7 +140,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg6",
+                "path": "flu/h5n1/seg6",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 6/NA)",
@@ -163,7 +163,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg4",
+                "path": "flu/h5n1/seg4",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 4/HA)",
@@ -186,7 +186,7 @@
                 }
               },
               {
-                "path": "data/flu/h5n1/seg3",
+                "path": "flu/h5n1/seg3",
                 "enabled": true,
                 "attributes": {
                   "name": "Influenza A/H5N1 (segment 3/PA)",
