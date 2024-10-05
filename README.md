@@ -15,7 +15,7 @@ Download H5N1 datasets as follows:
 ```
 for i in {1..8}; do 
     nextclade_dataset_name=flu/h5n1/seg$i
-    nextclade_dataset_server=https://raw.githubusercontent.com/genspectrum/nextclade-datasets/dataset_server_test/data
+    nextclade_dataset_server=https://raw.githubusercontent.com/genspectrum/nextclade-datasets/main/data
     nextclade3 dataset get --name $nextclade_dataset_name --server $nextclade_dataset_server --output-dir output$i
 done
 ```
