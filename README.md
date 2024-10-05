@@ -19,7 +19,3 @@ for i in {1..8}; do
     nextclade3 dataset get --name $nextclade_dataset_name --server $nextclade_dataset_server --output-dir output$i
 done
 ```
-
-for i in {1..8}; do 
-rm -rf output$i
-done
