@@ -10,5 +10,8 @@
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3",
     "readme": "README.md"
+  },
+  "version": {
+    "tag": "unreleased"
   }
 }

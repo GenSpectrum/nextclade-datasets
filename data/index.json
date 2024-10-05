@@ -60,6 +60,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -75,6 +83,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -90,6 +106,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -105,6 +129,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -120,6 +152,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -135,6 +175,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
               },
               {
@@ -150,6 +198,14 @@
                   "pathogenJson": "pathogen.json",
                   "genomeAnnotation": "genome_annotation.gff3",
                   "readme": "README.md"
+                },
+                "versions": [
+                  {
+                    "tag": "unreleased"
+                  }
+                ],
+                "version": {
+                  "tag": "unreleased"
                 }
             
             }
