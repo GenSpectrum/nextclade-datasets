@@ -1,6 +1,9 @@
 {
   "alignmentParams": {
-    "minSeedCover": 0.005
+    "minSeedCover": 0.005,
+    "excessBandwidth": 9,
+    "terminalBandwidth": 100,
+    "allowedMismatches": 4
   },
   "schemaVersion": "3.0.0",
   "attributes": {
