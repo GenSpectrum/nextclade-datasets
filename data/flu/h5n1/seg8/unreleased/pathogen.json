@@ -1,6 +1,6 @@
 {
   "alignmentParams": {
-    "minSeedCover": 0.01
+    "minSeedCover": 0.005
   },
   "schemaVersion": "3.0.0",
   "attributes": {
