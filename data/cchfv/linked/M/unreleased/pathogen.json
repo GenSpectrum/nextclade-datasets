@@ -1,4 +1,7 @@
 {
+    "alignmentParams": {
+        "minSeedCover": 0.01
+    },
     "files": {
         "reference": "reference_M.fasta",
         "pathogenJson": "pathogen.json",
