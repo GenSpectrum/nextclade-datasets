@@ -275,7 +275,7 @@
           "path": "marburg",
           "enabled": true,
           "files": {
-            "reference": "reference_L.fasta",
+            "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
             "genomeAnnotation": "genome_annotation.gff3",
             "readme": "README.md"
