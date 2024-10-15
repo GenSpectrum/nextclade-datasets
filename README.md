@@ -9,6 +9,7 @@ How to add new datasets?
 3. Zip the contents of the dataset into `dataset.zip` - this is what will be downloaded by nextclade and unzipped prior to use.
 ```
 for i in {1..8}; do
+    rm -rf dataset.zip
     cd seg$i/unreleased
     zip -r dataset.zip *
     cd -
