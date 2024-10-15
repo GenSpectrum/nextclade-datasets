@@ -1,6 +1,7 @@
 {
   "alignmentParams": {
-    "minSeedCover": 0.01
+    "minSeedCover": 0.01,
+    "kmerLength": 7
   },
   "files": {
     "reference": "reference_S.fasta",
