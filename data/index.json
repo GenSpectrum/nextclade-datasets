@@ -270,6 +270,24 @@
           "version": {
             "tag": "unreleased"
           }
+        },
+        {
+          "path": "marburg",
+          "enabled": true,
+          "files": {
+            "reference": "reference_L.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
         }
       ]
     }
