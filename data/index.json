@@ -278,7 +278,8 @@
             "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
             "genomeAnnotation": "genome_annotation.gff3",
-            "readme": "README.md"
+            "readme": "README.md",
+            "treeJson": "marburg_tree.json"
           },
           "versions": [
             {
