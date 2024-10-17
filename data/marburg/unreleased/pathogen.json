@@ -1,0 +1,18 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "Orthomarburgvirus marburgense",
+    "reference name": "Marburg marburgvirus isolate Marburg virus/H.sapiens-tc/KEN/1980/Mt. Elgon-Musoke, complete genome",
+    "reference accession": "NC_001608.3"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3",
+    "readme": "README.md",
+    "treeJson": "marburg_tree.json"
+  }
+}

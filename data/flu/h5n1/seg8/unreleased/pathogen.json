@@ -1,4 +1,9 @@
 {
+  "alignmentParams": {
+    "minSeedCover": 0.005,
+    "kmerLength":7,
+    "allowedMismatches": 12
+  },
   "schemaVersion": "3.0.0",
   "attributes": {
     "name": "Influenza A/H5N1 (segment 8/NS)",
