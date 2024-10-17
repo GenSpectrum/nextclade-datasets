@@ -4,14 +4,15 @@
   },
   "schemaVersion": "3.0.0",
   "attributes": {
-    "name": "Influenza A/H5N1 (segment 1/PB2)",
-    "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) polymerase (PB2) gene, complete cds",
-    "reference accession": "NC_007357.1"
+    "name": "Orthomarburgvirus marburgense",
+    "reference name": "Marburg marburgvirus isolate Marburg virus/H.sapiens-tc/KEN/1980/Mt. Elgon-Musoke, complete genome",
+    "reference accession": "NC_001608.3"
   },
   "files": {
     "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3",
-    "readme": "README.md"
+    "readme": "README.md",
+    "treeJson": "marburg_tree.json"
   }
 }
