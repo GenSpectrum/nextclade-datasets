@@ -66,11 +66,25 @@
             "end": 1831
           },
           "cdsName": "L"
+        },
+        {
+          "codonRange": {
+            "begin": 1708,
+            "end": 1710
+          },
+          "cdsName": "L"
         }
       ]
     },
     "stopCodons": {
-      "enabled": true
+      "enabled": true,
+      "ignoredStopCodons": [
+        {"cdsName": "L", "codon":2326}
+      ]
+    }
+  },
+  "mutLabels": {
+    "nucMutLabelMap": {
     }
   }
 }

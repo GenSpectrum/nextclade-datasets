@@ -299,6 +299,9 @@
               "privateMutations",
               "snpClusters",
               "stopCodons"
+            ],
+            "other": [
+              "mutLabels"
             ]
           }
         }
