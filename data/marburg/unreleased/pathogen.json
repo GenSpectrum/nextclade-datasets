@@ -1,7 +1,9 @@
 {
   "alignmentParams": {
     "minSeedCover": 0.01,
-    "retryReverseComplement": true
+    "retryReverseComplement": true,
+    "kmerLength": 7,
+    "allowedMismatches": 10
   },
   "schemaVersion": "3.0.0",
   "attributes": {
@@ -42,7 +44,30 @@
       "mixedSitesThreshold": 8
     },
     "frameShifts": {
-      "enabled": true
+      "enabled": true,
+      "ignoredFrameShifts": [
+        {
+          "codonRange": {
+            "begin": 1179,
+            "end": 1182
+          },
+          "cdsName": "L"
+        },
+        {
+          "codonRange": {
+            "begin": 1806,
+            "end": 1811
+          },
+          "cdsName": "L"
+        },
+        {
+          "codonRange": {
+            "begin": 1829,
+            "end": 1831
+          },
+          "cdsName": "L"
+        }
+      ]
     },
     "stopCodons": {
       "enabled": true
