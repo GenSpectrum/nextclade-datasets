@@ -51,49 +51,49 @@
             "begin": 1179,
             "end": 1182
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1178,
             "end": 1181
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1180,
             "end": 1183
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1179,
             "end": 1183
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1179,
             "end": 1181
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1806,
             "end": 1811
           },
-          "cdsName": "L"
+          "geneName": "L"
         },
         {
           "codonRange": {
             "begin": 1829,
             "end": 1831
           },
-          "cdsName": "L"
+          "geneName": "L"
         }
       ]
     },
