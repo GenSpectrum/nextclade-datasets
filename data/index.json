@@ -288,6 +288,16 @@
           ],
           "version": {
             "tag": "unreleased"
+          },
+          "capabilities": {
+            "qc": [
+              "frameShifts",
+              "missingData",
+              "mixedSites",
+              "privateMutations",
+              "snpClusters",
+              "stopCodons"
+            ]
           }
         }
       ]
