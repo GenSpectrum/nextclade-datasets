@@ -290,6 +290,7 @@
             "tag": "unreleased"
           },
           "capabilities": {
+            "clades": 6,
             "qc": [
               "frameShifts",
               "missingData",
