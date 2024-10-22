@@ -79,7 +79,7 @@
     "stopCodons": {
       "enabled": true,
       "ignoredStopCodons": [
-        {"cdsName": "L", "codon":2326}
+        {"cdsName": "L", "codon":2327}
       ]
     }
   },
