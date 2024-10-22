@@ -1,4 +1,7 @@
 {
+  "generalParams": {
+    "replaceUnknown": true
+  },
   "alignmentParams": {
     "minSeedCover": 0.01,
     "retryReverseComplement": true,
@@ -23,7 +26,7 @@
     "privateMutations": {
       "enabled": true,
       "typical": 50,
-      "cutoff": 150,
+      "cutoff": 200,
       "weightLabeledSubstitutions": 2,
       "weightReversionSubstitutions": 2,
       "weightUnlabeledSubstitutions": 1
@@ -79,13 +82,14 @@
     "stopCodons": {
       "enabled": true,
       "ignoredStopCodons": [
-        {"cdsName": "L", "codon":2327}
+        {
+          "cdsName": "L",
+          "codon": 2327
+        }
       ]
     }
   },
   "mutLabels": {
-    "nucMutLabelMap": {
-    }
+    "nucMutLabelMap": {}
   }
 }
-
