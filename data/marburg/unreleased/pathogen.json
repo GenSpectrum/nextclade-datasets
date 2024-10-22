@@ -24,8 +24,8 @@
       "enabled": true,
       "typical": 50,
       "cutoff": 150,
-      "weightLabeledSubstitutions": 6,
-      "weightReversionSubstitutions": 6,
+      "weightLabeledSubstitutions": 2,
+      "weightReversionSubstitutions": 2,
       "weightUnlabeledSubstitutions": 1
     },
     "missingData": {
