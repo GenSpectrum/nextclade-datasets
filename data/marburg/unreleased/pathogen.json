@@ -13,6 +13,38 @@
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3",
     "readme": "README.md",
-    "treeJson": "marburg_tree.json"
+    "treeJson": "marburg_tree.json",
+    "examples": "sequences.fasta"
+  },
+  "qc": {
+    "privateMutations": {
+      "enabled": true,
+      "typical": 50,
+      "cutoff": 150,
+      "weightLabeledSubstitutions": 2,
+      "weightReversionSubstitutions": 1,
+      "weightUnlabeledSubstitutions": 1
+    },
+    "missingData": {
+      "enabled": false,
+      "missingDataThreshold": 2000,
+      "scoreBias": 500
+    },
+    "snpClusters": {
+      "enabled": false,
+      "windowSize": 100,
+      "clusterCutOff": 10,
+      "scoreWeight": 50
+    },
+    "mixedSites": {
+      "enabled": true,
+      "mixedSitesThreshold": 8
+    },
+    "frameShifts": {
+      "enabled": true
+    },
+    "stopCodons": {
+      "enabled": true
+    }
   }
 }
