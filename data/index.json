@@ -1,216 +1,277 @@
 {
-    "schemaVersion": "3.0.0",
-    "collections": [
-      {
-        "meta": {
-          "id": "genspectrum",
-          "title": "Genspectrum",
-          "description": "Nextclade datasets maintained by Genspectrum team",
-          "maintainers": [
+  "schemaVersion": "3.0.0",
+  "collections": [
+    {
+      "meta": {
+        "id": "genspectrum",
+        "title": "Genspectrum",
+        "description": "Nextclade datasets maintained by Genspectrum team",
+        "maintainers": [
+          {
+            "name": "Genspectrum team",
+            "url": "https://github.com/GenSpectrum"
+          }
+        ],
+        "urls": [
+          {
+            "name": "source",
+            "url": "https://github.com/GenSpectrum/nextclade-datasets"
+          },
+          {
+            "name": "contact",
+            "url": "https://github.com/GenSpectrum/nextclade-datasets/issues"
+          }
+        ]
+      },
+      "datasets": [
+        {
+          "path": "flu/h5n1/seg2",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 2/PB1)",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds",
+            "reference accession": "NC_007358.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
             {
-              "name": "Genspectrum team",
-              "url": "https://github.com/GenSpectrum"
+              "tag": "unreleased"
             }
           ],
-          "urls": [
-            {
-              "name": "source",
-              "url": "https://github.com/GenSpectrum/nextclade-datasets"
-            },
-            {
-              "name": "contact",
-              "url": "https://github.com/GenSpectrum/nextclade-datasets/issues"
-            }
-          ]
+          "version": {
+            "tag": "unreleased"
+          }
         },
-        "datasets": [
+        {
+          "path": "flu/h5n1/seg7",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 7/M)",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) segment 7, complete sequence",
+            "reference accession": "NC_007363.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
             {
-                "path": "flu/h5n1/seg2",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 2/PB1)",
-                  "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PB1) and PB1-F2 protein (PB1-F2) genes, complete cds",
-                  "reference accession": "NC_007358.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg7",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 7/M)",
-                  "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) segment 7, complete sequence",
-                  "reference accession": "NC_007363.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg8",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 8/NS)",
-                  "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) segment 8, complete sequence",
-                  "reference accession": "NC_007364.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg1",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 1/PB2)",
-                  "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) polymerase (PB2) gene, complete cds",
-                  "reference accession": "NC_007357.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg5",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 5/NP)",
-                  "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) nucleocapsid protein (NP) gene, complete cds",
-                  "reference accession": "NC_007360.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg6",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 6/NA)",
-                  "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) neuraminidase (NA) gene, complete cds",
-                  "reference accession": "NC_007361.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg4",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 4/HA)",
-                  "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) hemagglutinin (HA) gene, complete cds",
-                  "reference accession": "NC_007362.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-              },
-              {
-                "path": "flu/h5n1/seg3",
-                "enabled": true,
-                "attributes": {
-                  "name": "Influenza A/H5N1 (segment 3/PA)",
-                  "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PA) and PA-X protein (PA-X) genes, complete cds",
-                  "reference accession": "NC_007359.1"
-                },
-                "files": {
-                  "reference": "reference.fasta",
-                  "pathogenJson": "pathogen.json",
-                  "genomeAnnotation": "genome_annotation.gff3",
-                  "readme": "README.md"
-                },
-                "versions": [
-                  {
-                    "tag": "unreleased"
-                  }
-                ],
-                "version": {
-                  "tag": "unreleased"
-                }
-            
+              "tag": "unreleased"
             }
-        ]
-      }
-    
-]
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg8",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 8/NS)",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) segment 8, complete sequence",
+            "reference accession": "NC_007364.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg1",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 1/PB2)",
+            "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) polymerase (PB2) gene, complete cds",
+            "reference accession": "NC_007357.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg5",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 5/NP)",
+            "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) nucleocapsid protein (NP) gene, complete cds",
+            "reference accession": "NC_007360.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg6",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 6/NA)",
+            "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "NC_007361.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg4",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 4/HA)",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "NC_007362.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/h5n1/seg3",
+          "enabled": true,
+          "attributes": {
+            "name": "Influenza A/H5N1 (segment 3/PA)",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PA) and PA-X protein (PA-X) genes, complete cds",
+            "reference accession": "NC_007359.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/linked/S",
+          "enabled": true,
+          "files": {
+            "reference": "reference_S.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "treeJson": "CCHF_notreeknit_S.json",
+            "examples": "selected_sequences_S.fasta",
+            "readme": "README.md",
+            "changelog": "CHANGELOG.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/linked/M",
+          "enabled": true,
+          "files": {
+            "reference": "reference_M.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "treeJson": "CCHF_notreeknit_M.json",
+            "examples": "selected_sequences_M.fasta",
+            "readme": "README.md",
+            "changelog": "CHANGELOG.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/linked/L",
+          "enabled": true,
+          "files": {
+            "reference": "reference_L.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3",
+            "treeJson": "CCHF_notreeknit_L.json",
+            "examples": "selected_sequences_L.fasta",
+            "readme": "README.md",
+            "changelog": "CHANGELOG.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        }
+      ]
+    }
+  ]
 }
