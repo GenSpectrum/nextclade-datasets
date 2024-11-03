@@ -27,3 +27,7 @@ for i in {1..8}; do
     nextclade3 dataset get --name $nextclade_dataset_name --server $nextclade_dataset_server --output-dir output$i
 done
 ```
+
+List of defaults for tuning alignment parameters: https://github.com/nextstrain/nextclade/blob/48801faba4a364578350c938b80a6c33ae1e5ed5/packages/nextclade/src/align/params.rs#L153
+
+QC docs: https://docs.nextstrain.org/projects/nextclade/en/stable/user/algorithm/06-quality-control.html
