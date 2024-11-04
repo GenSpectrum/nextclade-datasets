@@ -19,6 +19,7 @@
     "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3",
+    "changelog": "CHANGELOG.md",
     "readme": "README.md",
     "treeJson": "marburg_tree.json",
     "examples": "sequences.fasta"
