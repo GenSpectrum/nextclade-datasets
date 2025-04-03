@@ -81,9 +81,9 @@
             "reference accession": "NC_005777.1"
           },
           "files": {
-            "reference": "S.fasta",
+            "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
-            "genomeAnnotation": "S.gff3",
+            "genomeAnnotation": "genome_annotation.gff3",
             "readme": "README.md"
           },
           "versions": [
@@ -104,9 +104,9 @@
             "reference accession": "NC_005775.1"
           },
           "files": {
-            "reference": "M.fasta",
+            "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
-            "genomeAnnotation": "M.gff3",
+            "genomeAnnotation": "genome_annotation.gff3",
             "readme": "README.md"
           },
           "versions": [
@@ -127,9 +127,9 @@
             "reference accession": "NC_005776.1"
           },
           "files": {
-            "reference": "L.fasta",
+            "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
-            "genomeAnnotation": "L.gff3",
+            "genomeAnnotation": "genome_annotation.gff3",
             "readme": "README.md"
           },
           "versions": [

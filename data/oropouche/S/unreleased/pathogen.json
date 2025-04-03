@@ -9,9 +9,9 @@
     "reference accession": "NC_005777.1"
   },
   "files": {
-    "reference": "S.fasta",
+    "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
-    "genomeAnnotation": "S.gff3",
+    "genomeAnnotation": "genome_annotation.gff3",
     "readme": "README.md"
   }
 }
