@@ -5,7 +5,7 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=118655
 NC_005777.1	RefSeq	region	1	754	.	+	.	ID=NC_005777.1:1..754;Dbxref=taxon:118655;Name=S;gbkey=Src;genome=genomic;mol_type=genomic RNA;segment=S
 NC_005777.1	RefSeq	gene	45	740	.	+	.	ID=gene-OROVsNgp1;Dbxref=GeneID:2753640;Name=N;gbkey=Gene;gene=N;gene_biotype=protein_coding;locus_tag=OROVsNgp1
-NC_005777.1	RefSeq	CDS	45	740	.	+	0	ID=cds-NP_982305.1;Parent=gene-OROVsNgp1;Dbxref=GenBank:NP_982305.1,GeneID:2753640;Name=NP_982305.1;gbkey=CDS;gene=N;locus_tag=OROVsNgp1;product=nucleoprotein;protein_id=NP_982305.1
+NC_005777.1	RefSeq	CDS	45	740	.	+	0	Name=N;ID=cds-NP_982305.1;Parent=gene-OROVsNgp1;Dbxref=GenBank:NP_982305.1,GeneID:2753640;Name=NP_982305.1;gbkey=CDS;gene=N;locus_tag=OROVsNgp1;product=nucleoprotein;protein_id=NP_982305.1
 NC_005777.1	RefSeq	gene	67	342	.	+	.	ID=gene-OROVsNgp2;Dbxref=GeneID:2753639;Name=NSs;gbkey=Gene;gene=NSs;gene_biotype=protein_coding;locus_tag=OROVsNgp2
-NC_005777.1	RefSeq	CDS	67	342	.	+	0	ID=cds-NP_982306.1;Parent=gene-OROVsNgp2;Dbxref=GenBank:NP_982306.1,GeneID:2753639;Name=NP_982306.1;gbkey=CDS;gene=NSs;locus_tag=OROVsNgp2;product=non-structural protein;protein_id=NP_982306.1
+NC_005777.1	RefSeq	CDS	67	342	.	+	0	Name=NSs;ID=cds-NP_982306.1;Parent=gene-OROVsNgp2;Dbxref=GenBank:NP_982306.1,GeneID:2753639;Name=NP_982306.1;gbkey=CDS;gene=NSs;locus_tag=OROVsNgp2;product=non-structural protein;protein_id=NP_982306.1
 

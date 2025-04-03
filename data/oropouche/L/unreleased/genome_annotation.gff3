@@ -5,5 +5,5 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=118655
 NC_005776.1	RefSeq	region	1	6846	.	+	.	ID=NC_005776.1:1..6846;Dbxref=taxon:118655;Name=L;gbkey=Src;genome=genomic;mol_type=genomic RNA;segment=L
 NC_005776.1	RefSeq	gene	44	6796	.	+	.	ID=gene-OROVsLgp1;Dbxref=GeneID:2943207;Name=OROVsLgp1;gbkey=Gene;gene_biotype=protein_coding;locus_tag=OROVsLgp1
-NC_005776.1	RefSeq	CDS	44	6796	.	+	0	ID=cds-NP_982304.1;Parent=gene-OROVsLgp1;Dbxref=GenBank:NP_982304.1,GeneID:2943207;Name=NP_982304.1;gbkey=CDS;locus_tag=OROVsLgp1;product=RNA polymerase;protein_id=NP_982304.1
+NC_005776.1	RefSeq	CDS	44	6796	.	+	0	Name=L;ID=cds-NP_982304.1;Parent=gene-OROVsLgp1;Dbxref=GenBank:NP_982304.1,GeneID:2943207;Name=NP_982304.1;gbkey=CDS;locus_tag=OROVsLgp1;product=RNA polymerase;protein_id=NP_982304.1
 
