@@ -1,0 +1,17 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "Oropouche (segment S)",
+    "reference name": "Oropouche virus segment S, complete sequence",
+    "reference accession": "NC_005777.1"
+  },
+  "files": {
+    "reference": "S.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "S.gff3",
+    "readme": "README.md"
+  }
+}
