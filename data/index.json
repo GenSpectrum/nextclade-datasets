@@ -73,6 +73,75 @@
           }
         },
         {
+          "path": "oropouche/S",
+          "enabled": true,
+          "attributes": {
+            "name": "Oropouche (segment S)",
+            "reference name": "Oropouche virus segment S, complete sequence",
+            "reference accession": "NC_005777.1"
+          },
+          "files": {
+            "reference": "S.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "S.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "oropouche/M",
+          "enabled": true,
+          "attributes": {
+            "name": "Oropouche (segment M)",
+            "reference name": "Oropouche virus segment M, complete sequence",
+            "reference accession": "NC_005775.1"
+          },
+          "files": {
+            "reference": "M.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "M.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "oropouche/L",
+          "enabled": true,
+          "attributes": {
+            "name": "Oropouche (segment L)",
+            "reference name": "Oropouche virus segment L, complete genome",
+            "reference accession": "NC_005776.1"
+          },
+          "files": {
+            "reference": "L.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "L.gff3",
+            "readme": "README.md"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
           "path": "flu/h5n1/seg7",
           "enabled": true,
           "attributes": {
