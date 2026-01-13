@@ -4,5 +4,5 @@
 ##sequence-region MH396653.1 1 5457
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3052518
 MH396653.1	Genbank	region	1	5457	.	+	.	ID=MH396653.1:1..5457;Dbxref=taxon:3052518;Name=M;collection-date=2015;country=India: Jodhpur District%2C Rajasthan State;gbkey=Src;genome=genomic;isolation-source=EDTA blood;mol_type=viral cRNA;nat-host=Homo sapiens;old-name=Crimean-Congo hemorrhagic fever orthonairovirus;segment=M;strain=NIV151175
-MH396653.1	Genbank	CDS	89	5143	.	+	0	ID=cds-QBP34427.1;Dbxref=NCBI_GP:QBP34427.1;Name=QBP34427.1;gbkey=CDS;product=glycoprotein precursor;protein_id=QBP34427.1
+MH396653.1	Genbank	CDS	89	5143	.	+	0	ID=cds-QBP34427.1;Dbxref=NCBI_GP:QBP34427.1;Name=RdRp;gbkey=CDS;product=glycoprotein precursor;protein_id=QBP34427.1
 
