@@ -10,15 +10,15 @@
     "penaltyGapOpenOutOfFrame": 28
   },
   "files": {
-    "reference": "reference_M.fasta",
+    "reference": "reference.fasta",
     "pathogenJson": "pathogen.json",
     "genomeAnnotation": "genome_annotation.gff3"
   },
   "schemaVersion": "3.0.0",
   "attributes": {
-    "name": "CCHF (segment M)",
-    "reference name": "Crimean-Congo hemorrhagic fever virus segment M",
-    "reference accession": "NC_005300.2"
+    "name": "CCHF (segment M, reference OR047158.1)",
+    "reference name": "Crimean-Congo hemorrhagic fever virus segment M (OR047158.1)",
+    "reference accession": "OR047158.1"
   },
   "qc": {
     "privateMutations": {

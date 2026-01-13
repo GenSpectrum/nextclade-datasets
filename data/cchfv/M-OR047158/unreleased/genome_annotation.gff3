@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region OR047158.1 1 5401
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=3052518
+OR047158.1	Genbank	region	1	5401	.	+	.	ID=OR047158.1:1..5401;Dbxref=taxon:3052518;Name=M;collection-date=2004;country=China;gbkey=Src;genome=proviral;isolation-source=Suckling mouse brain;mol_type=viral cRNA;nat-host=Tick;old-name=Crimean-Congo hemorrhagic fever orthonairovirus;segment=M;strain=BA04032
+OR047158.1	Genbank	CDS	77	5179	.	+	0	ID=cds-WLV27565.1;Dbxref=NCBI_GP:WLV27565.1;Name=WLV27565.1;Note=GP;gbkey=CDS;product=glycoprotein precursor;protein_id=WLV27565.1
+

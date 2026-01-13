@@ -233,17 +233,39 @@
           }
         },
         {
-          "path": "cchfv/M",
+          "path": "cchfv/M-MH396653",
           "enabled": true,
           "files": {
-            "reference": "reference_M.fasta",
+            "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
             "genomeAnnotation": "genome_annotation.gff3"
           },
           "attributes": {
-            "name": "CCHF (segment M)",
-            "reference name": "Crimean-Congo hemorrhagic fever virus segment M",
-            "reference accession": "NC_005300.2"
+            "name": "CCHF (segment M, reference MH396653.1)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment M (MH396653.1)",
+            "reference accession": "MH396653.1"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/M-OR047158",
+          "enabled": true,
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment M, reference OR047158.1)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment M (OR047158.1)",
+            "reference accession": "OR047158.1"
           },
           "versions": [
             {
@@ -276,7 +298,6 @@
             "tag": "unreleased"
           }
         },
-
         {
           "path": "cchfv/S-2to5",
           "enabled": true,
