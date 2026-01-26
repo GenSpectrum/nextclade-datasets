@@ -5,8 +5,7 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1395524
 CY125945.1	Genbank	region	1	1771	.	+	.	ID=CY125945.1:1..1771;Dbxref=taxon:1395524;Name=4;collection-date=2010;country=Peru: Truenococha;gbkey=Src;isolation-source=rectal swab;mol_type=viral cRNA;nat-host=Artibeus planirostris%3B gender M;note=Complete sequence%2C ends confirmed by RACE-PCR.;segment=4;serotype=H18N11;strain=A/flat-faced bat/Peru/033/2010
 CY125945.1	Genbank	gene	29	1714	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
-CY125945.1	Genbank	CDS	29	1714	.	+	0	ID=cds-AGX84934.1;Parent=gene-HA;Dbxref=NCBI_GP:AGX84934.1;Name=AGX84934.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AGX84934.1
+CY125945.1	Genbank	CDS	29	1714	.	+	0	ID=cds-AGX84934.1;Parent=gene-HA;Dbxref=NCBI_GP:AGX84934.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=AGX84934.1
 CY125945.1	Genbank	signal_peptide_region_of_CDS	29	70	.	+	.	ID=id-AGX84934.1:1..14;Parent=cds-AGX84934.1;gbkey=Prot
 CY125945.1	Genbank	mature_protein_region_of_CDS	71	1045	.	+	.	ID=id-AGX84934.1:15..339;Parent=cds-AGX84934.1;gbkey=Prot;product=HA1
 CY125945.1	Genbank	mature_protein_region_of_CDS	1046	1711	.	+	.	ID=id-AGX84934.1:340..561;Parent=cds-AGX84934.1;gbkey=Prot;product=HA2
-

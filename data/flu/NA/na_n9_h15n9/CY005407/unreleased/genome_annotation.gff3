@@ -6,6 +6,5 @@
 CY005407.1	Genbank	region	1	1459	.	+	.	ID=CY005407.1:1..1459;Dbxref=taxon:352560;Name=6;collection-date=1979;country=Australia: Western Australia;gbkey=Src;mol_type=viral cRNA;nat-host=Avian;segment=6;serotype=H15N9;strain=A/wedge-tailed shearwater/Western Australia/2576/1979
 CY005407.1	Genbank	primer_binding_site	1	15	.	+	.	ID=id-CY005407.1:1..15;Note=PCR amplification primer sequence;gbkey=primer_bind
 CY005407.1	Genbank	gene	19	1431	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
-CY005407.1	Genbank	CDS	19	1431	.	+	0	ID=cds-ABB88141.1;Parent=gene-NA;Dbxref=NCBI_GP:ABB88141.1;Name=ABB88141.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=ABB88141.1
+CY005407.1	Genbank	CDS	19	1431	.	+	0	ID=cds-ABB88141.1;Parent=gene-NA;Dbxref=NCBI_GP:ABB88141.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=ABB88141.1
 CY005407.1	Genbank	primer_binding_site	1439	1459	.	-	.	ID=id-CY005407.1:1439..1459;Note=PCR amplification primer sequence;gbkey=primer_bind
-

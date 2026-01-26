@@ -75,6 +75,29 @@ def update_index(pathogen_json, path, output_dir):
         json.dumps(index, indent=2, ensure_ascii=False) + "\n"
     )
 
+def rename_cds_to_gene_names(gff_content: str) -> str:
+    lines = gff_content.splitlines()
+    updated_lines = []
+    for line in lines:
+        if line.startswith("#") or not line.strip():
+            updated_lines.append(line)
+            continue
+        parts = line.split("\t")
+        if len(parts) < 9:
+            updated_lines.append(line)
+            continue
+        attributes = parts[8]
+        attr_dict = dict(item.split("=") for item in attributes.split(";") if "=" in item)
+        if parts[2] == "CDS" and "gene" in attr_dict:
+            attr_dict["Name"] = attr_dict["gene"]
+            del attr_dict["gene"]
+            parts[8] = ";".join(f"{k}={v}" for k, v in attr_dict.items())
+            updated_line = "\t".join(parts)
+            updated_lines.append(updated_line)
+        else:
+            updated_lines.append(line)
+    return "\n".join(updated_lines)
+
 
 def generate_dataset(dataset_dir: Path, ref_name: str, accession: str, output_dir: str):
     dataset_dir.mkdir(parents=True, exist_ok=True)
@@ -92,7 +115,8 @@ def generate_dataset(dataset_dir: Path, ref_name: str, accession: str, output_di
         gff3 = Entrez.efetch(
             db="nucleotide", id=accession, rettype="gff3", retmode="text"
         )
-        gff_path.write_text(gff3.read())
+        gff_content = gff3.read()
+        gff_path.write_text(rename_cds_to_gene_names(gff_content))
 
         pathogen_json = PATHOGEN_TEMPLATE.copy()
         pathogen_json["attributes"]["name"] = ref_name

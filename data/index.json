@@ -871,7 +871,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n6_h13n6/CY130088/unreleased",
+          "path": "flu/NA/na_n6_h13n6/CY130088",
           "enabled": true,
           "attributes": {
             "name": "na_n6_h13n6",
@@ -893,7 +893,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n6_h14n6/KC110598/unreleased",
+          "path": "flu/NA/na_n6_h14n6/KC110598",
           "enabled": true,
           "attributes": {
             "name": "na_n6_h14n6",
@@ -915,7 +915,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n7_h10n7/CY136096/unreleased",
+          "path": "flu/NA/na_n7_h10n7/CY136096",
           "enabled": true,
           "attributes": {
             "name": "na_n7_h10n7",
@@ -937,7 +937,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n8_h3n8/CY028838/unreleased",
+          "path": "flu/NA/na_n8_h3n8/CY028838",
           "enabled": true,
           "attributes": {
             "name": "na_n8_h3n8",
@@ -959,7 +959,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n9_h7n9/NC_026429.1/unreleased",
+          "path": "flu/NA/na_n9_h7n9/NC_026429.1",
           "enabled": true,
           "attributes": {
             "name": "na_n9_h7n9",
@@ -981,7 +981,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n9_h11n9/CY130072/unreleased",
+          "path": "flu/NA/na_n9_h11n9/CY130072",
           "enabled": true,
           "attributes": {
             "name": "na_n9_h11n9",
@@ -1003,7 +1003,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n9_h15n9/CY005407/unreleased",
+          "path": "flu/NA/na_n9_h15n9/CY005407",
           "enabled": true,
           "attributes": {
             "name": "na_n9_h15n9",
@@ -1025,7 +1025,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n10_h17n10/CY103878/unreleased",
+          "path": "flu/NA/na_n10_h17n10/CY103878",
           "enabled": true,
           "attributes": {
             "name": "na_n10_h17n10",
@@ -1047,7 +1047,7 @@
           }
         },
         {
-          "path": "flu/NA/na_n11_h18n11/CY125947/unreleased",
+          "path": "flu/NA/na_n11_h18n11/CY125947",
           "enabled": true,
           "attributes": {
             "name": "na_n11_h18n11",

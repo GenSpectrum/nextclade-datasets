@@ -5,5 +5,4 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1129345
 CY103878.1	Genbank	region	1	1390	.	+	.	ID=CY103878.1:1..1390;Dbxref=taxon:1129345;Name=6;collection-date=May-2009;country=Guatemala: El Jobo;gbkey=Src;isolation-source=rectal swab;mol_type=viral cRNA;nat-host=Sturnira lilium%3B gender M;note=Complete sequence%2C ends confirmed by RACE-PCR;segment=6;serotype=H17N10;strain=A/little yellow-shouldered bat/Guatemala/153/2009
 CY103878.1	Genbank	gene	24	1352	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
-CY103878.1	Genbank	CDS	24	1352	.	+	0	ID=cds-AFC35420.1;Parent=gene-NA;Dbxref=NCBI_GP:AFC35420.1;Name=AFC35420.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AFC35420.1
-
+CY103878.1	Genbank	CDS	24	1352	.	+	0	ID=cds-AFC35420.1;Parent=gene-NA;Dbxref=NCBI_GP:AFC35420.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=AFC35420.1

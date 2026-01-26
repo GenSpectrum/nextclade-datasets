@@ -5,8 +5,7 @@
 ##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=387222
 CY028836.1	Genbank	region	1	1725	.	+	.	ID=CY028836.1:1..1725;Dbxref=taxon:387222;Name=4;collection-date=1963;country=USA: Florida;gbkey=Src;mol_type=viral cRNA;nat-host=Equine;segment=4;serotype=H3N8;strain=A/equine/Miami/1/1963
 CY028836.1	Genbank	gene	11	1708	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
-CY028836.1	Genbank	CDS	11	1708	.	+	0	ID=cds-ABY81492.1;Parent=gene-HA;Dbxref=NCBI_GP:ABY81492.1;Name=ABY81492.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ABY81492.1
+CY028836.1	Genbank	CDS	11	1708	.	+	0	ID=cds-ABY81492.1;Parent=gene-HA;Dbxref=NCBI_GP:ABY81492.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=ABY81492.1
 CY028836.1	Genbank	signal_peptide_region_of_CDS	11	58	.	+	.	ID=id-ABY81492.1:1..16;Parent=cds-ABY81492.1;gbkey=Prot
 CY028836.1	Genbank	mature_protein_region_of_CDS	59	1042	.	+	.	ID=id-ABY81492.1:17..344;Parent=cds-ABY81492.1;gbkey=Prot;product=HA1
 CY028836.1	Genbank	mature_protein_region_of_CDS	1043	1705	.	+	.	ID=id-ABY81492.1:345..565;Parent=cds-ABY81492.1;gbkey=Prot;product=HA2
-

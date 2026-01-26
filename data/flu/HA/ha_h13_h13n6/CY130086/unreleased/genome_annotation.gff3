@@ -6,8 +6,7 @@
 CY130086.1	Genbank	region	1	1743	.	+	.	ID=CY130086.1:1..1743;Dbxref=taxon:384499;Name=4;bio-material=CEIRS#80894#;collection-date=1977;country=USA: Maryland;gbkey=Src;mol_type=viral cRNA;nat-host=gull;segment=4;serotype=H13N6;strain=A/gull/Maryland/704/1977
 CY130086.1	Genbank	sequence_feature	1	1743	.	+	.	ID=id-CY130086.1:1..1743;Dbxref=IRD:NIGSP_CEIRS_SJC001_WEB_00015.HA;gbkey=misc_feature
 CY130086.1	Genbank	gene	30	1730	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
-CY130086.1	Genbank	CDS	30	1730	.	+	0	ID=cds-AGB51312.1;Parent=gene-HA;Dbxref=NCBI_GP:AGB51312.1;Name=AGB51312.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AGB51312.1
+CY130086.1	Genbank	CDS	30	1730	.	+	0	ID=cds-AGB51312.1;Parent=gene-HA;Dbxref=NCBI_GP:AGB51312.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=AGB51312.1
 CY130086.1	Genbank	signal_peptide_region_of_CDS	30	83	.	+	.	ID=id-AGB51312.1:1..18;Parent=cds-AGB51312.1;gbkey=Prot
 CY130086.1	Genbank	mature_protein_region_of_CDS	84	1058	.	+	.	ID=id-AGB51312.1:19..343;Parent=cds-AGB51312.1;gbkey=Prot;product=HA1
 CY130086.1	Genbank	mature_protein_region_of_CDS	1059	1727	.	+	.	ID=id-AGB51312.1:344..566;Parent=cds-AGB51312.1;gbkey=Prot;product=HA2
-
