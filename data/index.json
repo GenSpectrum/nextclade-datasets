@@ -211,18 +211,105 @@
           }
         },
         {
-          "path": "flu/h5n1/seg3",
+          "path": "cchfv/L",
           "enabled": true,
-          "attributes": {
-            "name": "Influenza A/H5N1 (segment 3/PA)",
-            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) polymerase (PA) and PA-X protein (PA-X) genes, complete cds",
-            "reference accession": "NC_007359.1"
-          },
           "files": {
             "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
-            "genomeAnnotation": "genome_annotation.gff3",
-            "readme": "README.md"
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment L)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment L",
+            "reference accession": "NC_005301.3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/M-MH396653",
+          "enabled": true,
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment M, reference MH396653.1)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment M (MH396653.1)",
+            "reference accession": "MH396653.1"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/M-OR047158",
+          "enabled": true,
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment M, reference OR047158.1)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment M (OR047158.1)",
+            "reference accession": "OR047158.1"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/S-1and6",
+          "enabled": true,
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment S)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment S",
+            "reference accession": "MK299338.1"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "cchfv/S-2to5",
+          "enabled": true,
+           "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "attributes": {
+            "name": "CCHF (segment S)",
+            "reference name": "Crimean-Congo hemorrhagic fever virus segment S",
+            "reference accession": "OL774851.1"
           },
           "versions": [
             {

@@ -14,15 +14,21 @@ How to add new datasets?
 
 1. Create a dataset following [nextclade's instructions](https://github.com/nextstrain/nextclade_data/blob/master/docs/dataset-creation-guide.md).
 2. Update the `index.json`: this should include the details from each pathogen.json folder, additionally the `index.json` expects datasets to be versioned. For simplicity set version to unreleased and keep each dataset in a subdirectory called `unreleased`.
+
+To move nextclade datasets into a subfolder called unreleased you can run:
+
+```
+DATASET=S-2to5
+DEST="$DATASET/unreleased"
+mkdir -p "$DEST"
+rsync -a --remove-source-files --exclude 'unreleased/' $DATASET/ "$DEST"/
+```
+
 3. Zip the contents of the dataset into `dataset.zip` - this is what will be downloaded by nextclade and unzipped prior to use.
 
 ```
-for i in {1..8}; do
-    rm -rf dataset.zip
-    cd seg$i/unreleased
-    zip -r dataset.zip *
-    cd -
-done
+cd $DATASET/unreleased
+zip -r dataset.zip *
 ```
 
 Note that steps 2 and 3 are performed automatically by the CI when you create an official nextclade dataset, using the [rebuild script](https://github.com/nextstrain/nextclade_data/blob/master/scripts/rebuild/).
