@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "na_n2_h9n2",
+    "reference name": "Influenza A virus na gene for neuraminidase, genomic RNA, strain A/Hong Kong/1073/99(H9N2)",
+    "reference accession": "NC_004909.1"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

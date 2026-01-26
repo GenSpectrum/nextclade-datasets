@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h3_h3n8",
+    "reference name": "Influenza A virus (A/equine/Miami/1/1963(H3N8)) segment 4, complete sequence",
+    "reference accession": "CY028836"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

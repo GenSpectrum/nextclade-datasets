@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h13_h13n6",
+    "reference name": "Influenza A virus (A/gull/Maryland/704/1977(H13N6)) hemagglutinin (HA) gene, complete cds",
+    "reference accession": "CY130086"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

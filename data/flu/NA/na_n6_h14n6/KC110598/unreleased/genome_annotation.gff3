@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KC110598.1 1 1423
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1088701
+KC110598.1	Genbank	region	1	1423	.	+	.	ID=KC110598.1:1..1423;Dbxref=taxon:1088701;Name=6;collection-date=16-Nov-2010;country=USA;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Clangula hyemalis (long-tailed duck);segment=6;serotype=H14N6;strain=A/long-tailed duck/Wisconsin/10OS3912/2010
+KC110598.1	Genbank	gene	19	1423	.	+	.	ID=gene-NA;Name=NA;end_range=1423,.;gbkey=Gene;gene=NA;gene_biotype=protein_coding;partial=true
+KC110598.1	Genbank	CDS	19	1423	.	+	0	ID=cds-AFX81873.1;Parent=gene-NA;Dbxref=NCBI_GP:AFX81873.1;Name=AFX81873.1;end_range=1423,.;gbkey=CDS;gene=NA;partial=true;product=neuraminidase;protein_id=AFX81873.1
+

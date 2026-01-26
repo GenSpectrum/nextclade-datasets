@@ -1,0 +1,14 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY006010.1 1 1763
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=352560
+CY006010.1	Genbank	region	1	1763	.	+	.	ID=CY006010.1:1..1763;Dbxref=taxon:352560;Name=4;collection-date=1979;country=Australia: Western Australia;gbkey=Src;mol_type=viral cRNA;nat-host=Avian;segment=4;serotype=H15N9;strain=A/wedge-tailed shearwater/Western Australia/2576/1979
+CY006010.1	Genbank	primer_binding_site	1	19	.	+	.	ID=id-CY006010.1:1..19;Note=PCR amplification primer sequence;gbkey=primer_bind
+CY006010.1	Genbank	gene	22	1734	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY006010.1	Genbank	CDS	22	1734	.	+	0	ID=cds-ABB88138.1;Parent=gene-HA;Dbxref=NCBI_GP:ABB88138.1;Name=ABB88138.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ABB88138.1
+CY006010.1	Genbank	signal_peptide_region_of_CDS	22	75	.	+	.	ID=id-ABB88138.1:1..18;Parent=cds-ABB88138.1;gbkey=Prot
+CY006010.1	Genbank	mature_protein_region_of_CDS	76	1068	.	+	.	ID=id-ABB88138.1:19..349;Parent=cds-ABB88138.1;gbkey=Prot;product=HA1
+CY006010.1	Genbank	mature_protein_region_of_CDS	1069	1731	.	+	.	ID=id-ABB88138.1:350..570;Parent=cds-ABB88138.1;gbkey=Prot;product=HA2
+CY006010.1	Genbank	primer_binding_site	1744	1763	.	-	.	ID=id-CY006010.1:1744..1763;Note=PCR amplification primer sequence;gbkey=primer_bind
+

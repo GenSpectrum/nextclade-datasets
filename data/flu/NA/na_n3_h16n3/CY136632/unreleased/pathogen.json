@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "na_n3_h16n3",
+    "reference name": "Influenza A virus (A/laughing gull/Delaware Bay/2839/1987(H16N3)) neuraminidase (NA) gene, complete cds",
+    "reference accession": "CY136632"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

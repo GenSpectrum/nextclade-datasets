@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "na_n10_h17n10",
+    "reference name": "Influenza A virus (A/little yellow-shouldered bat/Guatemala/153/2009(H17N10)) neuraminidase (NA) gene, complete cds",
+    "reference accession": "CY103878"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_004909.1 1 1418
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=130760
+NC_004909.1	RefSeq	region	1	1418	.	+	.	ID=NC_004909.1:1..1418;Dbxref=taxon:130760;Name=6;gbkey=Src;genome=genomic;mol_type=genomic RNA;note=subtype H9N2;segment=6;strain=A/Hong Kong/1073/99
+NC_004909.1	RefSeq	gene	1	1404	.	+	.	ID=gene-FLUAVAHHH9N2s6gp1;Dbxref=GeneID:1460997;Name=na;gbkey=Gene;gene=na;gene_biotype=protein_coding;locus_tag=FLUAVAHHH9N2s6gp1
+NC_004909.1	RefSeq	CDS	1	1404	.	+	0	ID=cds-NP_859038.1;Parent=gene-FLUAVAHHH9N2s6gp1;Dbxref=GOA:Q9ICY2,InterPro:IPR001860,InterPro:IPR011040,UniProtKB/TrEMBL:Q9ICY2,GenBank:NP_859038.1,GeneID:1460997;Name=NP_859038.1;gbkey=CDS;gene=na;locus_tag=FLUAVAHHH9N2s6gp1;product=neuraminidase;protein_id=NP_859038.1
+

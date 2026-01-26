@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY136133.1 1 1437
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1228846
+CY136133.1	Genbank	region	1	1437	.	+	.	ID=CY136133.1:1..1437;Dbxref=taxon:1228846;Name=6;bio-material=CEIRS#9BM8109#;country=USA: Alaska;gbkey=Src;lab-host=R0 passage(s);mol_type=viral cRNA;nat-host=northern pintail%3B gender M%3B age hatch year;note=Sample provided by University of Alaska Fairbanks;segment=6;serotype=H8N4;strain=A/northern pintail/Interior Alaska/9BM8109R0/2009
+CY136133.1	Genbank	sequence_feature	1	1437	.	+	.	ID=id-CY136133.1:1..1437;Dbxref=IRD:NIGSP_CEIRS_CIP055_AK2_00220.NA;gbkey=misc_feature
+CY136133.1	Genbank	gene	10	1422	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY136133.1	Genbank	CDS	10	1422	.	+	0	ID=cds-AGG26257.1;Parent=gene-NA;Dbxref=NCBI_GP:AGG26257.1;Name=AGG26257.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AGG26257.1
+

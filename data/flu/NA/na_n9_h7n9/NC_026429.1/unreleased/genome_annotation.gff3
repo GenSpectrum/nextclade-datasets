@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_026429.1 1 1398
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1332244
+NC_026429.1	RefSeq	region	1	1398	.	+	.	ID=NC_026429.1:1..1398;Dbxref=taxon:1332244;Name=6;collection-date=05-Mar-2013;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details: E1;segment=6;serotype=H7N9;strain=A/Shanghai/02/2013
+NC_026429.1	RefSeq	gene	1	1398	.	+	.	ID=gene-TS66_s6gp1;Dbxref=GeneID:23104238;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding;locus_tag=TS66_s6gp1
+NC_026429.1	RefSeq	CDS	1	1398	.	+	0	ID=cds-YP_009118481.1;Parent=gene-TS66_s6gp1;Dbxref=GenBank:YP_009118481.1,GeneID:23104238;Name=YP_009118481.1;gbkey=CDS;gene=NA;locus_tag=TS66_s6gp1;product=neuraminidase;protein_id=YP_009118481.1
+

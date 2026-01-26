@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY130070.1 1 1735
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=402474
+CY130070.1	Genbank	region	1	1735	.	+	.	ID=CY130070.1:1..1735;Dbxref=taxon:402474;Name=4;bio-material=CEIRS#162855#;collection-date=1974;country=USA: Memphis;gbkey=Src;mol_type=viral cRNA;nat-host=duck;segment=4;serotype=H11N9;strain=A/duck/Memphis/546/1974
+CY130070.1	Genbank	sequence_feature	1	1735	.	+	.	ID=id-CY130070.1:1..1735;Dbxref=IRD:NIGSP_CEIRS_SJC001_WEB_00013.HA;gbkey=misc_feature
+CY130070.1	Genbank	gene	21	1718	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY130070.1	Genbank	CDS	21	1718	.	+	0	ID=cds-AGB50960.1;Parent=gene-HA;Dbxref=NCBI_GP:AGB50960.1;Name=AGB50960.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AGB50960.1
+CY130070.1	Genbank	signal_peptide_region_of_CDS	21	68	.	+	.	ID=id-AGB50960.1:1..16;Parent=cds-AGB50960.1;gbkey=Prot
+CY130070.1	Genbank	mature_protein_region_of_CDS	69	1046	.	+	.	ID=id-AGB50960.1:17..342;Parent=cds-AGB50960.1;gbkey=Prot;product=HA1
+CY130070.1	Genbank	mature_protein_region_of_CDS	1047	1715	.	+	.	ID=id-AGB50960.1:343..565;Parent=cds-AGB50960.1;gbkey=Prot;product=HA2
+

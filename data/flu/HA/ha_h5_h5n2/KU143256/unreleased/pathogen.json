@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h5_h5n2",
+    "reference name": "Influenza A virus (A/chicken/Wuhan/WHJF/2014(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds",
+    "reference accession": "KU143256"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

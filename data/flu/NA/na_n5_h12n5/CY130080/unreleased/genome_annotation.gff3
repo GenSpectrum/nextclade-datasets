@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY130080.1 1 1444
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=385582
+CY130080.1	Genbank	region	1	1444	.	+	.	ID=CY130080.1:1..1444;Dbxref=taxon:385582;Name=6;bio-material=CEIRS#14739#;collection-date=1976;country=Canada: Alberta;gbkey=Src;mol_type=viral cRNA;nat-host=duck;segment=6;serotype=H12N5;strain=A/duck/Alberta/60/1976
+CY130080.1	Genbank	sequence_feature	1	1444	.	+	.	ID=id-CY130080.1:1..1444;Dbxref=IRD:NIGSP_CEIRS_SJC001_WEB_00014.NA;gbkey=misc_feature
+CY130080.1	Genbank	gene	9	1430	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY130080.1	Genbank	CDS	9	1430	.	+	0	ID=cds-AGB50974.1;Parent=gene-NA;Dbxref=NCBI_GP:AGB50974.1;Name=AGB50974.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AGB50974.1
+

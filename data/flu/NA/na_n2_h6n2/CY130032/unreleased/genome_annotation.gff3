@@ -1,0 +1,10 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY130032.1 1 1430
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=402473
+CY130032.1	Genbank	region	1	1430	.	+	.	ID=CY130032.1:1..1430;Dbxref=taxon:402473;Name=6;bio-material=CEIRS#162849#;collection-date=1965;country=USA: Massachusetts;gbkey=Src;mol_type=viral cRNA;nat-host=turkey;segment=6;serotype=H6N2;strain=A/turkey/Massachusetts/3740/1965
+CY130032.1	Genbank	sequence_feature	1	1430	.	+	.	ID=id-CY130032.1:1..1430;Dbxref=IRD:NIGSP_CEIRS_SJC001_WEB_00006.NA;gbkey=misc_feature
+CY130032.1	Genbank	gene	8	1417	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY130032.1	Genbank	CDS	8	1417	.	+	0	ID=cds-AGB50908.1;Parent=gene-NA;Dbxref=NCBI_GP:AGB50908.1;Name=AGB50908.1;gbkey=CDS;gene=NA;product=neuraminidase;protein_id=AGB50908.1
+

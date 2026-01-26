@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region JN696314.2 1 1749
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1088701
+JN696314.2	Genbank	region	1	1749	.	+	.	ID=JN696314.2:1..1749;Dbxref=taxon:1088701;Name=4;collected-by=Chad Courtney;collection-date=16-Nov-2010;country=USA;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Clangula hyemalis (long-tailed duck);segment=4;serotype=H14N6;strain=A/long-tailed duck/Wisconsin/10OS3912/2010
+JN696314.2	Genbank	gene	18	1724	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+JN696314.2	Genbank	CDS	18	1724	.	+	0	ID=cds-AEP68847.2;Parent=gene-HA;Dbxref=NCBI_GP:AEP68847.2;Name=AEP68847.2;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=AEP68847.2
+

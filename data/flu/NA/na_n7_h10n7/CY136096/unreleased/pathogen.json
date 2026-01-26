@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "na_n7_h10n7",
+    "reference name": "Influenza A virus (A/northern pintail/Interior Alaska/9BM11387R0/2009(H10N7)) neuraminidase (NA) gene, complete cds",
+    "reference accession": "CY136096"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

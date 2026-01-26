@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KU143256.1 1 1752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1756060
+KU143256.1	Genbank	region	1	1752	.	+	.	ID=KU143256.1:1..1752;Dbxref=taxon:1756060;Name=4;collection-date=Dec-2014;country=China;gbkey=Src;genome=genomic;isolation-source=chicken fecals;mol_type=viral cRNA;nat-host=chicken;segment=4;serotype=H5N2;strain=A/chicken/Wuhan/WHJF/2014
+KU143256.1	Genbank	gene	25	1719	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+KU143256.1	Genbank	CDS	25	1719	.	+	0	ID=cds-ALR82540.1;Parent=gene-HA;Dbxref=NCBI_GP:ALR82540.1;Name=ALR82540.1;gbkey=CDS;gene=HA;product=hemagglutinin;protein_id=ALR82540.1
+KU143256.1	Genbank	signal_peptide_region_of_CDS	25	72	.	+	.	ID=id-ALR82540.1:1..16;Parent=cds-ALR82540.1;gbkey=Prot
+KU143256.1	Genbank	mature_protein_region_of_CDS	73	1050	.	+	.	ID=id-ALR82540.1:17..342;Parent=cds-ALR82540.1;gbkey=Prot;product=HA1
+KU143256.1	Genbank	mature_protein_region_of_CDS	1051	1716	.	+	.	ID=id-ALR82540.1:343..564;Parent=cds-ALR82540.1;gbkey=Prot;product=HA2
+
