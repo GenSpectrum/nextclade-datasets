@@ -893,28 +893,6 @@
           }
         },
         {
-          "path": "flu/NA/na_n6_h14n6/KC110598",
-          "enabled": true,
-          "attributes": {
-            "name": "na_n6_h14n6",
-            "reference name": "Influenza A virus (A/long-tailed duck/Wisconsin/10OS3912/2010(H14N6)) segment 6 neuraminidase (NA) gene, partial cds",
-            "reference accession": "KC110598"
-          },
-          "files": {
-            "reference": "reference.fasta",
-            "pathogenJson": "pathogen.json",
-            "genomeAnnotation": "genome_annotation.gff3"
-          },
-          "versions": [
-            {
-              "tag": "unreleased"
-            }
-          ],
-          "version": {
-            "tag": "unreleased"
-          }
-        },
-        {
           "path": "flu/NA/na_n7_h10n7/CY136096",
           "enabled": true,
           "attributes": {
