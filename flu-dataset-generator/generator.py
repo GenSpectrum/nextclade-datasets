@@ -89,7 +89,7 @@ def rename_cds_to_gene_names(gff_content: str) -> str:
         attributes = parts[8]
         attr_dict = dict(item.split("=") for item in attributes.split(";") if "=" in item)
         if parts[2] == "CDS" and "gene" in attr_dict:
-            attr_dict["Name"] = attr_dict["gene"]
+            attr_dict["Name"] = attr_dict["gene"].upper()
             del attr_dict["gene"]
             parts[8] = ";".join(f"{k}={v}" for k, v in attr_dict.items())
             updated_line = "\t".join(parts)
