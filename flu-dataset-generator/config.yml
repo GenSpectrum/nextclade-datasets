@@ -36,4 +36,4 @@ NA:
   na_n10_h17n10: CY103878
   na_n11_h18n11: CY125947
 
-output_dir: ../data/flu
+output_dir: ../data

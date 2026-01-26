@@ -301,7 +301,7 @@
         {
           "path": "cchfv/S-2to5",
           "enabled": true,
-           "files": {
+          "files": {
             "reference": "reference.fasta",
             "pathogenJson": "pathogen.json",
             "genomeAnnotation": "genome_annotation.gff3"
@@ -310,6 +310,754 @@
             "name": "CCHF (segment S)",
             "reference name": "Crimean-Congo hemorrhagic fever virus segment S",
             "reference accession": "OL774851.1"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h3_h3n8/CY028836",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h3_h3n8",
+            "reference name": "Influenza A virus (A/equine/Miami/1/1963(H3N8)) segment 4, complete sequence",
+            "reference accession": "CY028836"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h4_h4n6/CY181241",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h4_h4n6",
+            "reference name": "Influenza A virus (A/mallard/Wisconsin/14/1974(H4N6)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY181241"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h5_h5n1/NC_007362.1",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h5_h5n1",
+            "reference name": "Influenza A virus (A/goose/Guangdong/1/1996(H5N1)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "NC_007362.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h5_h5n2/KU143256",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h5_h5n2",
+            "reference name": "Influenza A virus (A/chicken/Wuhan/WHJF/2014(H5N2)) segment 4 hemagglutinin (HA) gene, complete cds",
+            "reference accession": "KU143256"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h6_h6n2/CY130030",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h6_h6n2",
+            "reference name": "Influenza A virus (A/turkey/Massachusetts/3740/1965(H6N2)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY130030"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h7_h7n9/NC_026425.1",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h7_h7n9",
+            "reference name": "Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 4 hemagglutinin (HA) gene, complete cds",
+            "reference accession": "NC_026425.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h8_h8n4/CY136131",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h8_h8n4",
+            "reference name": "Influenza A virus (A/northern pintail/Interior Alaska/9BM8109R0/2009(H8N4)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY136131"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h9_h9n2/NC_004908.1",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h9_h9n2",
+            "reference name": "Influenza A virus ha gene for Hemagglutinin, genomic RNA, strain A/Hong Kong/1073/99(H9N2)",
+            "reference accession": "NC_004908.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h10_h10n7/CY136094",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h10_h10n7",
+            "reference name": "Influenza A virus (A/northern pintail/Interior Alaska/9BM11387R0/2009(H10N7)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY136094"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h11_h11n9/CY130070",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h11_h11n9",
+            "reference name": "Influenza A virus (A/duck/Memphis/546/1974(H11N9)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY130070"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h12_h12n5/CY130078",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h12_h12n5",
+            "reference name": "Influenza A virus (A/duck/Alberta/60/1976(H12N5)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY130078"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h13_h13n6/CY130086",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h13_h13n6",
+            "reference name": "Influenza A virus (A/gull/Maryland/704/1977(H13N6)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY130086"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h14_h14n5/JN696314",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h14_h14n5",
+            "reference name": "Influenza A virus (A/long-tailed duck/Wisconsin/10OS3912/2010(H14N6)) segment 4 hemagglutinin (HA) gene, complete cds",
+            "reference accession": "JN696314"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h15_h15n9/CY006010",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h15_h15n9",
+            "reference name": "Influenza A virus (A/wedge-tailed shearwater/Western Australia/2576/1979(H15N9)) segment 4, complete sequence",
+            "reference accession": "CY006010"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h16_h16n3/CY136630",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h16_h16n3",
+            "reference name": "Influenza A virus (A/laughing gull/Delaware Bay/2839/1987(H16N3)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY136630"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h17_h17n10/CY103876",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h17_h17n10",
+            "reference name": "Influenza A virus (A/little yellow-shouldered bat/Guatemala/153/2009(H17N10)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY103876"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/HA/ha_h18_h18n11/CY125945",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h18_h18n11",
+            "reference name": "Influenza A virus (A/flat-faced bat/Peru/033/2010(H18N11)) hemagglutinin (HA) gene, complete cds",
+            "reference accession": "CY125945"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n1_h5n1/NC_007361.1",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n1_h5n1",
+            "reference name": "Influenza A virus (A/Goose/Guangdong/1/96(H5N1)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "NC_007361.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n2_h6n2/CY130032",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n2_h6n2",
+            "reference name": "Influenza A virus (A/turkey/Massachusetts/3740/1965(H6N2)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY130032"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n2_h9n2/NC_004909.1",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n2_h9n2",
+            "reference name": "Influenza A virus na gene for neuraminidase, genomic RNA, strain A/Hong Kong/1073/99(H9N2)",
+            "reference accession": "NC_004909.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n2_h5n2/KU143347",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n2_h5n2",
+            "reference name": "Influenza A virus (A/chicken/Wuhan/WHJF/2014(H5N2)) segment 6 neuraminidase (NA) gene, complete cds",
+            "reference accession": "KU143347"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n3_h16n3/CY136632",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n3_h16n3",
+            "reference name": "Influenza A virus (A/laughing gull/Delaware Bay/2839/1987(H16N3)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY136632"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n4_h8n4/CY136133",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n4_h8n4",
+            "reference name": "Influenza A virus (A/northern pintail/Interior Alaska/9BM8109R0/2009(H8N4)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY136133"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n5_h12n5/CY130080",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n5_h12n5",
+            "reference name": "Influenza A virus (A/duck/Alberta/60/1976(H12N5)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY130080"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n6_h4n6/CY181243",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n6_h4n6",
+            "reference name": "Influenza A virus (A/mallard/Wisconsin/14/1974(H4N6)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY181243"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n6_h13n6/CY130088/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n6_h13n6",
+            "reference name": "Influenza A virus (A/gull/Maryland/704/1977(H13N6)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY130088"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n6_h14n6/KC110598/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n6_h14n6",
+            "reference name": "Influenza A virus (A/long-tailed duck/Wisconsin/10OS3912/2010(H14N6)) segment 6 neuraminidase (NA) gene, partial cds",
+            "reference accession": "KC110598"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n7_h10n7/CY136096/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n7_h10n7",
+            "reference name": "Influenza A virus (A/northern pintail/Interior Alaska/9BM11387R0/2009(H10N7)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY136096"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n8_h3n8/CY028838/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n8_h3n8",
+            "reference name": "Influenza A virus (A/equine/Miami/1/1963(H3N8)) segment 6, complete sequence",
+            "reference accession": "CY028838"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n9_h7n9/NC_026429.1/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n9_h7n9",
+            "reference name": "Influenza A virus (A/Shanghai/02/2013(H7N9)) segment 6 neuraminidase (NA) gene, complete cds",
+            "reference accession": "NC_026429.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n9_h11n9/CY130072/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n9_h11n9",
+            "reference name": "Influenza A virus (A/duck/Memphis/546/1974(H11N9)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY130072"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n9_h15n9/CY005407/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n9_h15n9",
+            "reference name": "Influenza A virus (A/wedge-tailed shearwater/Western Australia/2576/1979(H15N9)) segment 6, complete sequence",
+            "reference accession": "CY005407"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n10_h17n10/CY103878/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n10_h17n10",
+            "reference name": "Influenza A virus (A/little yellow-shouldered bat/Guatemala/153/2009(H17N10)) neuraminidase (NA) gene, complete cds",
+            "reference accession": "CY103878"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NA/na_n11_h18n11/CY125947/unreleased",
+          "enabled": true,
+          "attributes": {
+            "name": "na_n11_h18n11",
+            "reference name": "Influenza A virus (A/flat-faced bat/Peru/033/2010(H18N11)) neuraminidase-like protein (NA) gene, complete cds",
+            "reference accession": "CY125947"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
           },
           "versions": [
             {

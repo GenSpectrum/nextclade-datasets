@@ -28,6 +28,23 @@ PATHOGEN_TEMPLATE = {
     },
 }
 
+DATASET_TEMPLATE = {
+    "path": "flu/h3n2/seg6/CY114383",
+    "enabled": True,
+    "attributes": {
+        "name": "Influenza A/H3N2 (segment 6/NA)",
+        "reference name": "Influenza A virus (A/Wisconsin/67/2005(H3N2)) segment 6, complete sequence",
+        "reference accession": "CY114383.1",
+    },
+    "files": {
+        "reference": "reference.fasta",
+        "pathogenJson": "pathogen.json",
+        "genomeAnnotation": "genome_annotation.gff3",
+    },
+    "versions": [{"tag": "unreleased"}],
+    "version": {"tag": "unreleased"},
+}
+
 
 @dataclass
 class Config:
@@ -44,13 +61,27 @@ def fetch_genbank_description(accession: str):
         retmode="text",
     ) as handle:
         return SeqIO.read(handle, "genbank").description
-    
-def generate_dataset(out_dir: Path, ref_name: str, accession: str):
-    out_dir.mkdir(parents=True, exist_ok=True)
-    fasta_path = out_dir / "reference.fasta"
-    gff_path = out_dir / "genome_annotation.gff3"
-    pathogen_path = out_dir / "pathogen.json"
-    zip_path = out_dir / "dataset.zip"
+
+
+def update_index(pathogen_json, path, output_dir):
+    index_path = Path(output_dir) / "index.json"
+    index = json.loads(index_path.read_text())
+    dataset = DATASET_TEMPLATE.copy()
+    dataset["path"] = str(Path(path).relative_to(output_dir).parent)
+    dataset["attributes"] = pathogen_json["attributes"]
+    dataset["files"] = pathogen_json["files"]
+    index["collections"][0]["datasets"].append(dataset)
+    index_path.write_text(
+        json.dumps(index, indent=2, ensure_ascii=False) + "\n"
+    )
+
+
+def generate_dataset(dataset_dir: Path, ref_name: str, accession: str, output_dir: str):
+    dataset_dir.mkdir(parents=True, exist_ok=True)
+    fasta_path = dataset_dir / "reference.fasta"
+    gff_path = dataset_dir / "genome_annotation.gff3"
+    pathogen_path = dataset_dir / "pathogen.json"
+    zip_path = dataset_dir / "dataset.zip"
 
     try:
         fasta = Entrez.efetch(
@@ -65,28 +96,32 @@ def generate_dataset(out_dir: Path, ref_name: str, accession: str):
 
         pathogen_json = PATHOGEN_TEMPLATE.copy()
         pathogen_json["attributes"]["name"] = ref_name
-        pathogen_json["attributes"]["reference name"] = fetch_genbank_description(accession)
+        pathogen_json["attributes"]["reference name"] = fetch_genbank_description(
+            accession
+        )
         pathogen_json["attributes"]["reference accession"] = accession
 
         pathogen_path.write_text(
             json.dumps(pathogen_json, indent=2, ensure_ascii=False) + "\n"
         )
+        update_index(pathogen_json, dataset_dir, output_dir)
     except Exception as e:
-        print(f" {out_dir} Failed: {e}", file=sys.stderr)
+        print(f" {dataset_dir} Failed: {e}", file=sys.stderr)
 
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as zf:
-        for path in out_dir.rglob("*"):
+        for path in dataset_dir.rglob("*"):
             if path == zip_path:
-                continue # don’t zip the zip
-            zf.write(path, arcname=path.relative_to(out_dir))
+                continue  # don’t zip the zip
+            zf.write(path, arcname=path.relative_to(dataset_dir))
+
 
 def create_datasets(config: Config) -> None:
     for ref_name, accession in config.HA.items():
-        out_dir = Path(config.output_dir) / "HA" / ref_name / accession / "unreleased"
-        generate_dataset(out_dir, ref_name, accession)
+        dataset_dir = Path(config.output_dir) / "flu" / "HA" / ref_name / accession / "unreleased"
+        generate_dataset(dataset_dir, ref_name, accession, config.output_dir)
     for ref_name, accession in config.NA.items():
-        out_dir = Path(config.output_dir) / "NA" / ref_name / accession / "unreleased"
-        generate_dataset(out_dir, ref_name, accession)
+        dataset_dir = Path(config.output_dir) / "flu" / "NA" / ref_name / accession / "unreleased"
+        generate_dataset(dataset_dir, ref_name, accession, config.output_dir)
 
 
 @click.command()
