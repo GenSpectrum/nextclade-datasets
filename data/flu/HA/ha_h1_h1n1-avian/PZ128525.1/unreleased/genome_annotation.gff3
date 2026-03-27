@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PZ128525.1 1 1701
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+PZ128525.1	Genbank	region	1	1701	.	+	.	ID=PZ128525.1:1..1701;Dbxref=taxon:11320;Name=4;collection-date=2026-01-07;country=USA: AL;gbkey=Src;isolate=26G00462-001-original;isolation-source=Swab%2C Oropharyngeal;mol_type=viral cRNA;nat-host=Mallard Duck;segment=4;serotype=H1N1;strain=A/Mallard Duck/AL/26G00462-001-original/2026
+PZ128525.1	Genbank	gene	1	1701	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+PZ128525.1	Genbank	CDS	1	1701	.	+	0	ID=cds-YDJ21199.1;Parent=gene-HA;Dbxref=NCBI_GP:YDJ21199.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=YDJ21199.1
+PZ128525.1	Genbank	signal_peptide_region_of_CDS	1	51	.	+	.	ID=id-YDJ21199.1:1..17;Parent=cds-YDJ21199.1;gbkey=Prot
+PZ128525.1	Genbank	mature_protein_region_of_CDS	52	1032	.	+	.	ID=id-YDJ21199.1:18..344;Parent=cds-YDJ21199.1;gbkey=Prot;product=HA1
+PZ128525.1	Genbank	mature_protein_region_of_CDS	1033	1698	.	+	.	ID=id-YDJ21199.1:345..566;Parent=cds-YDJ21199.1;gbkey=Prot;product=HA2

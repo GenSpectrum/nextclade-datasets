@@ -5,8 +5,8 @@
   "schemaVersion": "3.0.0",
   "attributes": {
     "name": "ha_h1_h1n1-avian",
-    "reference name": "Influenza A virus (A/Mallard Duck/AL/26G00462-001-original/2026(H1N1)) segment 8 nuclear export protein (NEP) and nonstructural protein 1 (NS1) genes, complete cds",
-    "reference accession": "PZ128529.1"
+    "reference name": "Influenza A virus (A/Mallard Duck/AL/26G00462-001-original/2026(H1N1)) segment 4 hemagglutinin (HA) gene, complete cds",
+    "reference accession": "PZ128525.1"
   },
   "files": {
     "reference": "reference.fasta",
