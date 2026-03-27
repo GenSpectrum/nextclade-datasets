@@ -36,4 +36,7 @@ NA:
   na_n10_h17n10: CY103878
   na_n11_h18n11: CY125947
 
+NS:
+  h1n1-avian: PZ128529.1
+
 output_dir: ../data

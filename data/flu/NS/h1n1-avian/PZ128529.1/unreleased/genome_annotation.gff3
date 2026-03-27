@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region PZ128529.1 1 838
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11320
+PZ128529.1	Genbank	region	1	838	.	+	.	ID=PZ128529.1:1..838;Dbxref=taxon:11320;Name=8;collection-date=2026-01-07;country=USA: AL;gbkey=Src;isolate=26G00462-001-original;isolation-source=Swab%2C Oropharyngeal;mol_type=viral cRNA;nat-host=Mallard Duck;segment=8;serotype=H1N1;strain=A/Mallard Duck/AL/26G00462-001-original/2026
+PZ128529.1	Genbank	gene	1	838	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+PZ128529.1	Genbank	CDS	1	30	.	+	0	ID=cds-YDJ21205.1;Parent=gene-NEP;Dbxref=NCBI_GP:YDJ21205.1;Name=NEP;Note=nonstructural protein 2;gbkey=CDS;product=nuclear export protein;protein_id=YDJ21205.1
+PZ128529.1	Genbank	CDS	503	838	.	+	0	ID=cds-YDJ21205.1;Parent=gene-NEP;Dbxref=NCBI_GP:YDJ21205.1;Name=NEP;Note=nonstructural protein 2;gbkey=CDS;product=nuclear export protein;protein_id=YDJ21205.1
+PZ128529.1	Genbank	gene	1	693	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+PZ128529.1	Genbank	CDS	1	693	.	+	0	ID=cds-YDJ21204.1;Parent=gene-NS1;Dbxref=NCBI_GP:YDJ21204.1;Name=NS1;gbkey=CDS;product=nonstructural protein 1;protein_id=YDJ21204.1

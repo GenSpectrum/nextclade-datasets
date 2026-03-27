@@ -50,6 +50,7 @@ DATASET_TEMPLATE = {
 class Config:
     HA: dict[SequenceName, InsdcAccession]
     NA: dict[SequenceName, InsdcAccession]
+    NS: dict[SequenceName, InsdcAccession]
     output_dir: str
 
 
@@ -145,6 +146,9 @@ def create_datasets(config: Config) -> None:
         generate_dataset(dataset_dir, ref_name, accession, config.output_dir)
     for ref_name, accession in config.NA.items():
         dataset_dir = Path(config.output_dir) / "flu" / "NA" / ref_name / accession / "unreleased"
+        generate_dataset(dataset_dir, ref_name, accession, config.output_dir)
+    for ref_name, accession in config.NS.items():
+        dataset_dir = Path(config.output_dir) / "flu" / "NS" / ref_name / accession / "unreleased"
         generate_dataset(dataset_dir, ref_name, accession, config.output_dir)
 
 
