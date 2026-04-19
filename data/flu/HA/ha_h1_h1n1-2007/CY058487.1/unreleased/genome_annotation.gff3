@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY058487.1 1 1743
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=504904
+CY058487.1	Genbank	region	1	1743	.	+	.	ID=CY058487.1:1..1743;Dbxref=taxon:504904;Name=4;collection-date=2007;country=Australia;gbkey=Src;mol_type=viral cRNA;nat-host=human;segment=4;serotype=H1N1;strain=A/Brisbane/59/2007
+CY058487.1	Genbank	sequence_feature	1	1743	.	+	.	ID=id-CY058487.1:1..1743;Dbxref=IRD:CEIRS-SJC001-165809.4;gbkey=misc_feature
+CY058487.1	Genbank	gene	1	1698	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY058487.1	Genbank	CDS	1	1698	.	+	0	ID=cds-ADE28750.1;Parent=gene-HA;Dbxref=NCBI_GP:ADE28750.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=ADE28750.1
+CY058487.1	Genbank	signal_peptide_region_of_CDS	1	51	.	+	.	ID=id-ADE28750.1:1..17;Parent=cds-ADE28750.1;gbkey=Prot
+CY058487.1	Genbank	mature_protein_region_of_CDS	52	1029	.	+	.	ID=id-ADE28750.1:18..343;Parent=cds-ADE28750.1;gbkey=Prot;product=HA1
+CY058487.1	Genbank	mature_protein_region_of_CDS	1030	1695	.	+	.	ID=id-ADE28750.1:344..565;Parent=cds-ADE28750.1;gbkey=Prot;product=HA2

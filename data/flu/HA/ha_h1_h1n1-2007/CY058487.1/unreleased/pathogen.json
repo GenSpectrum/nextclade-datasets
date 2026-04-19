@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h1_h1n1-2007",
+    "reference name": "Influenza A virus (A/Brisbane/59/2007(H1N1)) segment 4 sequence",
+    "reference accession": "CY058487.1"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

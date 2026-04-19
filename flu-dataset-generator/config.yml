@@ -1,5 +1,6 @@
 HA:
   ha_h1_h1n1-avian: PZ128525.1
+  ha_h1_h1n1-2007: CY058487.1
   ha_h3_h3n8: CY028836
   ha_h4_h4n6: CY181241
   ha_h5_h5n1: NC_007362.1
@@ -38,5 +39,6 @@ NA:
 
 NS:
   h1n1-avian: PZ128529.1
+  h1n1-2007: CY058491.1
 
 output_dir: ../data

@@ -1089,6 +1089,50 @@
           "version": {
             "tag": "unreleased"
           }
+        },
+        {
+          "path": "flu/HA/ha_h1_h1n1-2007/CY058487.1",
+          "enabled": true,
+          "attributes": {
+            "name": "ha_h1_h1n1-2007",
+            "reference name": "Influenza A virus (A/Brisbane/59/2007(H1N1)) segment 4 sequence",
+            "reference accession": "CY058487.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
+        },
+        {
+          "path": "flu/NS/h1n1-2007/CY058491.1",
+          "enabled": true,
+          "attributes": {
+            "name": "h1n1-2007",
+            "reference name": "Influenza A virus (A/Brisbane/59/2007(H1N1)) segment 8 sequence",
+            "reference accession": "CY058491.1"
+          },
+          "files": {
+            "reference": "reference.fasta",
+            "pathogenJson": "pathogen.json",
+            "genomeAnnotation": "genome_annotation.gff3"
+          },
+          "versions": [
+            {
+              "tag": "unreleased"
+            }
+          ],
+          "version": {
+            "tag": "unreleased"
+          }
         }
       ]
     }
