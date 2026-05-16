@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region KU143347.1 1 1453
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1756060
+KU143347.1	Genbank	region	1	1453	.	+	.	ID=KU143347.1:1..1453;Dbxref=taxon:1756060;Name=6;collection-date=Dec-2014;country=China;gbkey=Src;genome=genomic;isolation-source=chicken fecals;mol_type=viral cRNA;nat-host=chicken;segment=6;serotype=H5N2;strain=A/chicken/Wuhan/WHJF/2014
+KU143347.1	Genbank	gene	20	1429	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+KU143347.1	Genbank	CDS	20	1429	.	+	0	ID=cds-ALR82543.1;Parent=gene-NA;Dbxref=NCBI_GP:ALR82543.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=ALR82543.1

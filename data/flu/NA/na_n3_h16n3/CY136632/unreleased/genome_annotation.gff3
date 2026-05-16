@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY136632.1 1 1422
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1283472
+CY136632.1	Genbank	region	1	1422	.	+	.	ID=CY136632.1:1..1422;Dbxref=taxon:1283472;Name=6;bio-material=CEIRS#144406#;collection-date=19-May-1987;country=USA: Delaware;gbkey=Src;lab-host=E1 passage(s);mol_type=viral cRNA;nat-host=laughing gull;segment=6;serotype=H16N3;strain=A/laughing gull/Delaware Bay/2839/1987
+CY136632.1	Genbank	sequence_feature	1	1422	.	+	.	ID=id-CY136632.1:1..1422;Dbxref=IRD:NIGSP_CEIRS_SJC001_JBC_00508.NA;gbkey=misc_feature
+CY136632.1	Genbank	gene	4	1413	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY136632.1	Genbank	CDS	4	1413	.	+	0	ID=cds-AGG26999.1;Parent=gene-NA;Dbxref=NCBI_GP:AGG26999.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=AGG26999.1

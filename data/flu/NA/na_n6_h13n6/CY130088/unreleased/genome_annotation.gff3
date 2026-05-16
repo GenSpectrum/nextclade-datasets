@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY130088.1 1 1442
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=384499
+CY130088.1	Genbank	region	1	1442	.	+	.	ID=CY130088.1:1..1442;Dbxref=taxon:384499;Name=6;bio-material=CEIRS#80894#;collection-date=1977;country=USA: Maryland;gbkey=Src;mol_type=viral cRNA;nat-host=gull;segment=6;serotype=H13N6;strain=A/gull/Maryland/704/1977
+CY130088.1	Genbank	sequence_feature	1	1442	.	+	.	ID=id-CY130088.1:1..1442;Dbxref=IRD:NIGSP_CEIRS_SJC001_WEB_00015.NA;gbkey=misc_feature
+CY130088.1	Genbank	gene	7	1422	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY130088.1	Genbank	CDS	7	1422	.	+	0	ID=cds-AGB51315.1;Parent=gene-NA;Dbxref=NCBI_GP:AGB51315.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=AGB51315.1

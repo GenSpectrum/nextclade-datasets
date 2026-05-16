@@ -1,0 +1,9 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY181243.1 1 1439
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1445223
+CY181243.1	Genbank	region	1	1439	.	+	.	ID=CY181243.1:1..1439;Dbxref=taxon:1445223;Name=6;collection-date=1974;country=USA: DeSoto West%2C WI;gbkey=Src;mol_type=viral cRNA;nat-host=mallard;segment=6;serotype=H4N6;strain=A/mallard/Wisconsin/14/1974
+CY181243.1	Genbank	sequence_feature	1	1439	.	+	.	ID=id-CY181243.1:1..1439;Dbxref=IRD:NIGSP_SSC_00484.NA;gbkey=misc_feature
+CY181243.1	Genbank	gene	7	1419	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY181243.1	Genbank	CDS	7	1419	.	+	0	ID=cds-AHN04765.1;Parent=gene-NA;Dbxref=NCBI_GP:AHN04765.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=AHN04765.1

@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h6_h6n2",
+    "reference name": "Influenza A virus (A/turkey/Massachusetts/3740/1965(H6N2)) hemagglutinin (HA) gene, complete cds",
+    "reference accession": "CY130030"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

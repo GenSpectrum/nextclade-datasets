@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY028838.1 1 1423
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=387222
+CY028838.1	Genbank	region	1	1423	.	+	.	ID=CY028838.1:1..1423;Dbxref=taxon:387222;Name=6;collection-date=1963;country=USA: Florida;gbkey=Src;mol_type=viral cRNA;nat-host=Equine;segment=6;serotype=H3N8;strain=A/equine/Miami/1/1963
+CY028838.1	Genbank	gene	1	1413	.	+	.	ID=gene-NA;Name=NA;gbkey=Gene;gene=NA;gene_biotype=protein_coding
+CY028838.1	Genbank	CDS	1	1413	.	+	0	ID=cds-ABY81495.1;Parent=gene-NA;Dbxref=NCBI_GP:ABY81495.1;Name=NA;gbkey=CDS;product=neuraminidase;protein_id=ABY81495.1

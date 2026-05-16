@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_004908.1 1 1714
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=130760
+NC_004908.1	RefSeq	region	1	1714	.	+	.	ID=NC_004908.1:1..1714;Dbxref=taxon:130760;Name=4;gbkey=Src;genome=genomic;mol_type=genomic RNA;note=subtype H9N2;segment=4;strain=A/Hong Kong/1073/99
+NC_004908.1	RefSeq	gene	32	1714	.	+	.	ID=gene-FLUAVAHHH9N2s4gp1;Dbxref=GeneID:1460996;Name=ha;gbkey=Gene;gene=ha;gene_biotype=protein_coding;locus_tag=FLUAVAHHH9N2s4gp1
+NC_004908.1	RefSeq	CDS	32	1714	.	+	0	ID=cds-NP_859037.1;Parent=gene-FLUAVAHHH9N2s4gp1;Dbxref=GOA:Q9ICY5,InterPro:IPR000149,InterPro:IPR001364,InterPro:IPR008980,InterPro:IPR013827,InterPro:IPR013828,InterPro:IPR013829,UniProtKB/TrEMBL:Q9ICY5,GenBank:NP_859037.1,GeneID:1460996;Name=HA;gbkey=CDS;locus_tag=FLUAVAHHH9N2s4gp1;product=Hemagglutinin;protein_id=NP_859037.1

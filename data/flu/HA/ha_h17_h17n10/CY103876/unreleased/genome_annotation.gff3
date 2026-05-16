@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY103876.1 1 1784
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1129345
+CY103876.1	Genbank	region	1	1784	.	+	.	ID=CY103876.1:1..1784;Dbxref=taxon:1129345;Name=4;collection-date=May-2009;country=Guatemala: El Jobo;gbkey=Src;isolation-source=rectal swab;mol_type=viral cRNA;nat-host=Sturnira lilium%3B gender M;note=Complete sequence%2C ends confirmed by RACE-PCR;segment=4;serotype=H17N10;strain=A/little yellow-shouldered bat/Guatemala/153/2009
+CY103876.1	Genbank	gene	35	1729	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY103876.1	Genbank	CDS	35	1729	.	+	0	ID=cds-AFC35418.1;Parent=gene-HA;Dbxref=NCBI_GP:AFC35418.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=AFC35418.1
+CY103876.1	Genbank	signal_peptide_region_of_CDS	35	88	.	+	.	ID=id-AFC35418.1:1..18;Parent=cds-AFC35418.1;gbkey=Prot
+CY103876.1	Genbank	mature_protein_region_of_CDS	89	1060	.	+	.	ID=id-AFC35418.1:19..342;Parent=cds-AFC35418.1;gbkey=Prot;product=HA1
+CY103876.1	Genbank	mature_protein_region_of_CDS	1061	1726	.	+	.	ID=id-AFC35418.1:343..564;Parent=cds-AFC35418.1;gbkey=Prot;product=HA2

@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h17_h17n10",
+    "reference name": "Influenza A virus (A/little yellow-shouldered bat/Guatemala/153/2009(H17N10)) hemagglutinin (HA) gene, complete cds",
+    "reference accession": "CY103876"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

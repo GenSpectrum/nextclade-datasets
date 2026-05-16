@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h15_h15n9",
+    "reference name": "Influenza A virus (A/wedge-tailed shearwater/Western Australia/2576/1979(H15N9)) segment 4, complete sequence",
+    "reference accession": "CY006010"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

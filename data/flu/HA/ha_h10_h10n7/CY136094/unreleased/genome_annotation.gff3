@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY136094.1 1 1703
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1228423
+CY136094.1	Genbank	region	1	1703	.	+	.	ID=CY136094.1:1..1703;Dbxref=taxon:1228423;Name=4;bio-material=CEIRS#9BM11387#;country=USA: Alaska;gbkey=Src;lab-host=R0 passage(s);mol_type=viral cRNA;nat-host=northern pintail%3B gender F%3B age hatch year;note=Sample provided by University of Alaska Fairbanks;segment=4;serotype=H10N7;strain=A/northern pintail/Interior Alaska/9BM11387R0/2009
+CY136094.1	Genbank	sequence_feature	1	1703	.	+	.	ID=id-CY136094.1:1..1703;Dbxref=IRD:NIGSP_CEIRS_CIP055_AK2_00216.HA;gbkey=misc_feature
+CY136094.1	Genbank	gene	8	1693	.	+	.	ID=gene-HA;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding
+CY136094.1	Genbank	CDS	8	1693	.	+	0	ID=cds-AGG26198.1;Parent=gene-HA;Dbxref=NCBI_GP:AGG26198.1;Name=HA;gbkey=CDS;product=hemagglutinin;protein_id=AGG26198.1
+CY136094.1	Genbank	signal_peptide_region_of_CDS	8	55	.	+	.	ID=id-AGG26198.1:1..16;Parent=cds-AGG26198.1;gbkey=Prot
+CY136094.1	Genbank	mature_protein_region_of_CDS	56	1027	.	+	.	ID=id-AGG26198.1:17..340;Parent=cds-AGG26198.1;gbkey=Prot;product=HA1
+CY136094.1	Genbank	mature_protein_region_of_CDS	1028	1690	.	+	.	ID=id-AGG26198.1:341..561;Parent=cds-AGG26198.1;gbkey=Prot;product=HA2

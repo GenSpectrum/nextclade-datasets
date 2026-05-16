@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h11_h11n9",
+    "reference name": "Influenza A virus (A/duck/Memphis/546/1974(H11N9)) hemagglutinin (HA) gene, complete cds",
+    "reference accession": "CY130070"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region NC_026425.1 1 1708
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1332244
+NC_026425.1	RefSeq	region	1	1708	.	+	.	ID=NC_026425.1:1..1708;Dbxref=taxon:1332244;Name=4;collection-date=05-Mar-2013;country=China;gbkey=Src;genome=genomic;mol_type=viral cRNA;nat-host=Homo sapiens;note=passage details: E1;segment=4;serotype=H7N9;strain=A/Shanghai/02/2013
+NC_026425.1	RefSeq	gene	1	1683	.	+	.	ID=gene-TS66_s4gp1;Dbxref=GeneID:23104227;Name=HA;gbkey=Gene;gene=HA;gene_biotype=protein_coding;locus_tag=TS66_s4gp1
+NC_026425.1	RefSeq	CDS	1	1683	.	+	0	ID=cds-YP_009118475.1;Parent=gene-TS66_s4gp1;Dbxref=GenBank:YP_009118475.1,GeneID:23104227;Name=HA;gbkey=CDS;locus_tag=TS66_s4gp1;product=hemagglutinin;protein_id=YP_009118475.1
+NC_026425.1	RefSeq	signal_peptide_region_of_CDS	1	54	.	+	.	ID=id-YP_009118475.1:1..18;Parent=cds-YP_009118475.1;gbkey=Prot
+NC_026425.1	RefSeq	mature_protein_region_of_CDS	55	1017	.	+	.	ID=id-YP_009118475.1:19..339;Parent=cds-YP_009118475.1;gbkey=Prot;product=HA1;protein_id=YP_009118482.1
+NC_026425.1	RefSeq	mature_protein_region_of_CDS	1018	1680	.	+	.	ID=id-YP_009118475.1:340..560;Parent=cds-YP_009118475.1;gbkey=Prot;product=HA2;protein_id=YP_009118483.1

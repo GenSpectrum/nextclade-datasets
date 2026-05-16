@@ -1,0 +1,16 @@
+{
+  "alignmentParams": {
+    "minSeedCover": 0.01
+  },
+  "schemaVersion": "3.0.0",
+  "attributes": {
+    "name": "ha_h14_h14n5",
+    "reference name": "Influenza A virus (A/long-tailed duck/Wisconsin/10OS3912/2010(H14N6)) segment 4 hemagglutinin (HA) gene, complete cds",
+    "reference accession": "JN696314"
+  },
+  "files": {
+    "reference": "reference.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "genome_annotation.gff3"
+  }
+}

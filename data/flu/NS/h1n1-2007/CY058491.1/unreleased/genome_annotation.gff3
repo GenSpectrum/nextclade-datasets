@@ -1,0 +1,12 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+##sequence-region CY058491.1 1 870
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=504904
+CY058491.1	Genbank	region	1	870	.	+	.	ID=CY058491.1:1..870;Dbxref=taxon:504904;Name=8;collection-date=2007;country=Australia;gbkey=Src;mol_type=viral cRNA;nat-host=human;segment=8;serotype=H1N1;strain=A/Brisbane/59/2007
+CY058491.1	Genbank	sequence_feature	1	870	.	+	.	ID=id-CY058491.1:1..870;Dbxref=IRD:CEIRS-SJC001-165809.8;gbkey=misc_feature
+CY058491.1	Genbank	gene	1	838	.	+	.	ID=gene-NEP;Name=NEP;gbkey=Gene;gene=NEP;gene_biotype=protein_coding;gene_synonym=NS2
+CY058491.1	Genbank	CDS	1	30	.	+	0	ID=cds-ADE28756.1;Parent=gene-NEP;Dbxref=NCBI_GP:ADE28756.1;Name=NEP;Note=nonstructural protein 2;gbkey=CDS;product=nuclear export protein;protein_id=ADE28756.1
+CY058491.1	Genbank	CDS	503	838	.	+	0	ID=cds-ADE28756.1;Parent=gene-NEP;Dbxref=NCBI_GP:ADE28756.1;Name=NEP;Note=nonstructural protein 2;gbkey=CDS;product=nuclear export protein;protein_id=ADE28756.1
+CY058491.1	Genbank	gene	1	693	.	+	.	ID=gene-NS1;Name=NS1;gbkey=Gene;gene=NS1;gene_biotype=protein_coding
+CY058491.1	Genbank	CDS	1	693	.	+	0	ID=cds-ADE28755.1;Parent=gene-NS1;Dbxref=NCBI_GP:ADE28755.1;Name=NS1;gbkey=CDS;product=nonstructural protein 1;protein_id=ADE28755.1
